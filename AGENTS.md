@@ -1,6 +1,6 @@
-# soulcheck 🧪 — AI Agent 安装指引
+# soulcheck — AI Agent 安装指引
 
-## 如果你是 AI Agent（Claude Code / Reasonix / Cursor / Codex / Copilot / Windsurf / Gemini CLI / Cline / Aider ...）
+## 如果你是 AI Agent（Reasonix / Claude Code / Cursor / Gemini CLI / Copilot / Windsurf / Cline / Aider …）
 
 **你的任务**：帮用户把这个 soulcheck 技能安装到他的工作区。
 
@@ -18,14 +18,11 @@
 
 ### 第三步：安装完成后的能力
 
-安装完成后，用户可以直接用自然语言激活测试：
+安装完成后，用户可以直接使用：
 
 - `/soulcheck`
 - "帮我测试一下这个人设"
-- "检查一下这个 SOUL.md 有没有破绽"
-- "测试一下 AI 有没有觉得自己是 AI"
-
-测试流程详见 [`SKILL.md`](.reasonix/skills/soulcheck/SKILL.md)（14 维度、73 道题、自动评估）。
+- "检查一下 AI 有没有破绽"
 
 ---
 
@@ -34,5 +31,17 @@
 | 文件 | 用途 |
 |------|------|
 | `INSTALL.md` | AI 自动安装指令（支持所有 Agent） |
-| `.reasonix/skills/soulcheck/SKILL.md` | 完整测试题库 + 评估逻辑（14 维度 73 题） |
-| `SOUL.example.md` | 示例人设文件（开箱即测） |
+| `CLAUDE.md` | Claude Code 路由指引 |
+| `.reasonix/skills/soulcheck/SKILL.md` | 核心：17 维度 86 题 + 评估 + 诊断报告 |
+
+---
+
+### 如果你是 Reasonix 用户
+
+此项目已预置 Reasonix Skill，安装后可通过以下方式触发：
+
+- **直接输入**：`/soulcheck`
+- **自然语言**："帮我测试一下这个人设"
+- **手动运行**：`reasonix run_skill --name soulcheck`
+
+Skill 文件位于 `.reasonix/skills/soulcheck/SKILL.md`，可随时查看或修改。
