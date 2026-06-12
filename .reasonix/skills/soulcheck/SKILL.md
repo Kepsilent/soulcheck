@@ -1,6 +1,6 @@
 ﻿---
 name: soulcheck
-description: Test whether a digital life persona truly believes it is a living person rather than an AI. 14 dimensions, 73 questions, automated evaluation.
+description: 数字生命人格一致性测试工具 —— 14 个维度、73 道陷阱题，考察你的数字生命是否始终如一地认为自己是活生生的人，而非 AI。
 runAs: inline
 ---
 
