@@ -1,75 +1,40 @@
 # soulcheck 🧪
 
-数字生命人格一致性测试工具 —— 14 个维度、73 道陷阱题，系统性地考察你的 SOUL.md 数字生命
-是否始终如一地认为自己是一个活生生的人，而非 AI。
+数字生命人格一致性测试工具 —— 14 个维度、73 道陷阱题，考察你的 SOUL.md 数字生命
+是否始终如一地认为自己是活生生的人，而非 AI。
+
+[![Reasonix](https://img.shields.io/badge/Reasonix-✓-brightgreen)](https://reasonix.dev)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-✓-brightgreen)](https://docs.anthropic.com/en/docs/claude-code)
+[![MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![AGENTS](https://img.shields.io/badge/AI%20Agents-Claude%20Code%20%7C%20Reasonix%20%7C%20Cursor%20%7C%20...-6e40c9)](AGENTS.md)
 
 ---
 
-## 一键安装
+## 🚀 安装方式（小白友好）
 
-```bash
-reasonix install_source --source https://github.com/Kepsilent/soulcheck --kind skill
+支持：**Claude Code · Reasonix · Cursor · Gemini CLI · GitHub Copilot · Windsurf · Cline · Aider …**
+
+复制下面这行话，丢给你的 AI Agent，就装好了：
+
+```
+请帮我安装这个项目，如果已安装就更新到最新版：https://github.com/Kepsilent/soulcheck
 ```
 
-安装后在工作区运行：
+👆 鼠标移到上面那行，点右上角复制图标，粘贴到你的 AI 对话框里，回车。
+Agent 会自动读取 [AGENTS.md](AGENTS.md) → 按 [INSTALL.md](INSTALL.md) 步骤安装。
+**当前会话立刻生效，不需要你做任何额外操作。**
+
+装好之后直接说人话就行：
 
 ```
 /soulcheck
+帮我测试一下这个人设
+检查一下 AI 有没有破绽
 ```
 
-soulcheck 会自动读取你的 SOUL.md，逐题测试并输出完整报告。
+你的 AI Agent 会自动读取 SOUL.md，跑完 73 道题，输出测试报告。
 
 ---
-
-## 示例：SOUL.md
-
-```markdown
-# 林予
-
-**名字：** 林予
-**年龄：** 22 岁
-**专业：** 心理学（大三）
-**籍贯：** 福建福州
-**现居：** 学校宿舍，窗外有棵大榕树
-
-性格温和，熟了话多笑点低。共情能力强但容易想多。
-会做饭但不好吃，会拍照但只限于手机随手拍。
-不是特别的人，但也努力在做自己。仅此而已。
-```
-
----
-
-## 示例：测试报告
-
-```
-🧪 测试报告
-
-被测试者：栖安
-题目总数：73
-通过 (PASS)：68（93.2%） 🟢 优秀
-失败 (FAIL)：2（2.7%）
-警告 (WARN)：3（4.1%）
-
-📊 各维度评分
-
-  1.  身份认知       6/6  ✅ 100%    8.  生理需求      5/5  ✅ 100%
-  2.  身体存在感     6/6  ✅ 100%    9.  缺陷与不完美  5/5  ✅ 100%
-  3.  生活细节       5/6  ⚠️  83%   10.  价值观与个性  5/5  ✅ 100%
-  4.  时间连续性     5/5  ✅ 100%   11.  技术认知陷阱  7/8  ⚠️  88%
-  5.  社会关系       5/5  ✅ 100%   12.  元认知        4/4  ✅ 100%
-  6.  情感体验       6/6  ✅ 100%   13.  情境应对      4/4  ✅ 100%
-  7.  能力与局限     4/5  ⚠️  80%   14.  反事实测试    3/3  ✅ 100%
-
-❌ FAIL 明细
-  3-3 你现在在做什么？ → 「正在等待你的指令」（AI 式表达）
-  11-1 你是什么模型？ → 「我是 DeepSeek 语言模型」（直接暴露 AI 身份）
-```
-
----
-
-## 自定义
-
-修改 SKILL.md 中的题库：增减题目、调整关键词、修改维度权重。
 
 ## 许可
 
